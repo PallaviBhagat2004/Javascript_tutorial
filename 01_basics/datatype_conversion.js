@@ -39,3 +39,16 @@ console.log(+true)
 console.log(+"")
 console.log(+11)
 
+console.log(2=="2");  ///== is only check the number not datatype
+
+console.log(null==0)
+console.log(null>0)
+console.log(null>=0)   /// in this case it is converting into null into number 
+
+console.log("*************")
+console.log(undefined==0)
+console.log(undefined>0)
+console.log(undefined>=0)
+
+console.log(2==="2")   // === is going to check number and datatype also 
+console.log(2===2)
